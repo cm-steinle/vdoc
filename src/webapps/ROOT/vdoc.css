@@ -1,0 +1,58 @@
+body			{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+table 		{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	background-color: #FFFFFF;
+	font-style: normal;
+}
+TD.auth {
+	text-align : center;
+}
+TD.desc {
+	background-color: #FFFF00;
+}
+TH.desc, .blue, TR.vdoc {
+	background-color: #3399FF;
+	color : #FFFFFF;
+	font-weight : bold;
+}
+TR.vdir {
+	background-color: #00CC66;
+	color : #FFFFFF;
+	font-weight : bold;
+}
+.HeadMenu {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color: #3399FF;
+	font-weight: bold;
+}
+.HeadList {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color: #00CC66;
+	font-weight: bold;
+}
+a 				{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	text-decoration : none;
+	color : #000000;
+}
+.fehler {
+	color : Red;
+}
+.hinweis {
+	color : Green;
+}
+
+div[data-angular-treeview] {
+    font-size: 12px;
+    color: #111111;
+}
+div[data-tree-model] li {
+    line-height: unset;
+    white-space: nowrap;
+}
