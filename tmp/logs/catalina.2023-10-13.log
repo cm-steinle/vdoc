@@ -1,0 +1,55 @@
+13-Oct-2023 07:19:20.241 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+13-Oct-2023 07:19:20.293 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+13-Oct-2023 07:19:20.344 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+13-Oct-2023 07:19:20.368 WARNING [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [vdoc] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+13-Oct-2023 07:19:20.369 WARNING [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [vdoc] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:135)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+13-Oct-2023 07:19:20.381 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+13-Oct-2023 07:19:20.434 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+13-Oct-2023 07:19:20.506 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+13-Oct-2023 07:19:20.507 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+13-Oct-2023 07:19:36.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+13-Oct-2023 07:19:36.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+13-Oct-2023 07:19:36.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+13-Oct-2023 07:19:36.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Oct-2023 07:19:36.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-13-amd64
+13-Oct-2023 07:19:36.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2023 07:19:36.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+13-Oct-2023 07:19:36.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_181-b01
+13-Oct-2023 07:19:36.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Oct-2023 07:19:36.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+13-Oct-2023 07:19:36.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+13-Oct-2023 07:19:36.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+13-Oct-2023 07:19:36.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2023 07:19:36.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2023 07:19:36.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2023 07:19:36.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2023 07:19:36.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+13-Oct-2023 07:19:36.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+13-Oct-2023 07:19:36.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+13-Oct-2023 07:19:36.934 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.17 using APR version 1.5.1.
+13-Oct-2023 07:19:36.934 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+13-Oct-2023 07:19:36.937 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.1.0f  25 May 2017)
+13-Oct-2023 07:19:37.007 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+13-Oct-2023 07:19:37.014 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+13-Oct-2023 07:19:37.016 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 381 ms
+13-Oct-2023 07:19:37.037 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+13-Oct-2023 07:19:37.037 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+13-Oct-2023 07:19:37.048 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/vdoc
+13-Oct-2023 07:19:37.439 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Oct-2023 07:19:37.457 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/vdoc has finished in 410 ms
+13-Oct-2023 07:19:37.457 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/docs
+13-Oct-2023 07:19:37.472 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/docs has finished in 15 ms
+13-Oct-2023 07:19:37.472 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/manager
+13-Oct-2023 07:19:37.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/manager has finished in 21 ms
+13-Oct-2023 07:19:37.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/ROOT
+13-Oct-2023 07:19:37.507 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/ROOT has finished in 14 ms
+13-Oct-2023 07:19:37.507 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/examples
+13-Oct-2023 07:19:37.681 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/examples has finished in 174 ms
+13-Oct-2023 07:19:37.681 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/host-manager
+13-Oct-2023 07:19:37.722 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/host-manager has finished in 41 ms
+13-Oct-2023 07:19:37.724 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+13-Oct-2023 07:19:37.735 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+13-Oct-2023 07:19:37.737 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 720 ms

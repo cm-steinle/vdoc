@@ -1,0 +1,26 @@
+# File: tomcat-mysql/docker-compose.yml
+####################################
+version: '3'
+
+services:
+  
+  vdoc:
+    build: ./tomcat
+    ports:
+      - "8080:8080"
+    volumes:
+      - vol-tomcat:/usr/local/tomcat
+      - vol-mysql-data:/var/lib/mysql
+      - vol-mysql-etc:/etc/mysql
+    networks:
+      - terminator_default
+      - default
+
+networks:
+  terminator_default:
+      external: true
+  
+volumes:
+  vol-tomcat:
+  vol-mysql-data:
+  vol-mysql-etc:
