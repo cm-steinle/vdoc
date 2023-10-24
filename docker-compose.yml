@@ -12,13 +12,13 @@ services:
       - vol-tomcat:/usr/local/tomcat
       - vol-mysql-data:/var/lib/mysql
       - vol-mysql-etc:/etc/mysql
-    # networks:
-    #  - terminator_default
-    #  - default
+    networks:
+      - terminator_default
+      - default
 
-#networks:
-#  terminator_default:
-#    external: true
+networks:
+  terminator_default:
+    external: true
   
 volumes:
   vol-tomcat:
