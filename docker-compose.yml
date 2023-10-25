@@ -12,6 +12,7 @@ services:
       - vol-tomcat:/usr/local/tomcat
       - vol-mysql-data:/var/lib/mysql
       - vol-mysql-etc:/etc/mysql
+      - /srv/docs:/usr/local/tomcat/webapps/ROOT/docs
     networks:
       - terminator_default
       - default
