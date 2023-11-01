@@ -3,14 +3,14 @@
 server { 
     listen 80;
     listen [::]:80;
-    server_name example.com;
+    server_name vdoc.haenel.biz;
     return 301 https://$server_name$request_uri;
     }
 
 server {
     
     listen              443 ssl;
-    server_name         www.example.com;
+    server_name         vdoc.haenel.biz;
     ssl_certificate /srv/hosts/vdoc.haenel.biz/haenel.biz.crt; 
     ssl_certificate_key /srv/hosts/vdoc.haenel.biz/haenel.biz.key;
     ssl_protocols       TLSv1 TLSv1.1 TLSv1.2 TLSv1.3;

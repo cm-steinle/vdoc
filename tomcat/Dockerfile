@@ -4,6 +4,7 @@ FROM tomcat:9.0
 ENV CATALINA_BASE /usr/local/tomcat
 ENV CATALINA_HOME /usr/local/tomcat
 ENV CATALINA_TMPDIR /usr/local/tomcat/temp
+
 # ENV JRE_HOME /usr
 
 WORKDIR $CATALINA_HOME

@@ -124,6 +124,9 @@
 # -----------------------------------------------------------------------------
 
 # OS specific support.  $var _must_ be set to either true or false.
+
+/etc/init.d/mariadb start
+
 cygwin=false
 darwin=false
 os400=false
@@ -166,6 +169,7 @@ if [ -r "$CATALINA_BASE/bin/setenv.sh" ]; then
 elif [ -r "$CATALINA_HOME/bin/setenv.sh" ]; then
   . "$CATALINA_HOME/bin/setenv.sh"
 fi
+
 
 # For Cygwin, ensure paths are in UNIX format before anything is touched
 if $cygwin; then
